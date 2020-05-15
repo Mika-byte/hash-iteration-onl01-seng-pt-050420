@@ -15,5 +15,6 @@ end
 
 def age_appropriate_birthday?(age)
   birthday_kids.each do |kids_name, age|
-    if age >= 12
+    if age <= 12
+      puts ""
       
